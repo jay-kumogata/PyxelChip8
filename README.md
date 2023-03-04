@@ -5,7 +5,7 @@
 PyxelChip8 is a CHIP-8/SUPER-CHIP emulator that runs on Pyxel/Python library.
 [Dev Notes](https://github.com/jay-kumogata/PyxelChip8/blob/main/doc/220505_DevNotes.md) here.
 
-<img src="https://github.com/jay-kumogata/PyxelChip8/blob/main/screenshots/amabie03.gif" width="256"> <img src="https://github.com/jay-kumogata/PyxelChip8/blob/main/screenshots/invaders01.gif" width="256"> <img src="https://github.com/jay-kumogata/PyxelChip8/blob/main/screenshots/brix01.gif" width="256">  <img src="https://github.com/jay-kumogata/PyxelChip8/blob/main/screenshots/dodge01.gif" width="256">  <img src="https://github.com/jay-kumogata/PyxelChip8/blob/main/screenshots/lunar01.gif" width="256">  <img src="https://github.com/jay-kumogata/PyxelChip8/blob/main/screenshots/test_opcode.gif" width="256">
+<img src="https://github.com/jay-kumogata/PyxelChip8/blob/main/screenshots/amabie02.gif" width="256"> <img src="https://github.com/jay-kumogata/PyxelChip8/blob/main/screenshots/invaders01.gif" width="256"> <img src="https://github.com/jay-kumogata/PyxelChip8/blob/main/screenshots/brix01.gif" width="256">  <img src="https://github.com/jay-kumogata/PyxelChip8/blob/main/screenshots/dodge01.gif" width="256">
 
 ## How to Play
 
@@ -26,6 +26,8 @@ The keys are mapped as follows.
 	         |4|5|6|D|            |Q|W|E|R|
 	         |7|8|9|E|            |A|S|D|F|
 	         |A|0|B|F|            |Z|X|C|V|
+	
+In addition, 5/7/8/9 are mapped to the Up/Left/Down/Right arrow keys.
 
 ## Specification
 ### Memory
