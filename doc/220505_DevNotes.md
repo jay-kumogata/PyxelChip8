@@ -85,7 +85,7 @@ Pyxelの宣伝に少しは役立てたでしょうか．
 
 桃の節句に因んで，緑と桃色のテーマも追加してみました．いわゆるブロック崩し（BRIX.ch8）を動かしてみました．
 
-<img src="https://github.com/jay-kumogata/PyxelChip8/blob/main/screenshots/BRIX01.gif" width="384">
+<img src="https://github.com/jay-kumogata/PyxelChip8/blob/main/screenshots/brix01.gif" width="384">
 
 ### 2023-02-21
 
@@ -161,9 +161,13 @@ PyxelChip8の動作チェックで，LunarLanderを何度か遊びました．
 が，それが，LunarLanderという遊びに変化したのだと想像します．
 「プレイ・マターズ」の遊びの特性である「流動的」の具体例かもしれません．
 
+### 2023-03-02
+
+Pyxelで動くChip8エミュレータ🕹️（PyxelChip8）の[専用リポジトリ](https://github.com/jay-kumogata/PyxelChip8)🗄️を作成しました．
+
 ### 2023-03-05
 
-少しだけ修正しました．
+少しだけ修正しました．v0.7として，リリースしました．
 
 - IO: [5][7][8][9]キーを矢印キーに割り付け
 
