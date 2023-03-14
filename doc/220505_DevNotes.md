@@ -140,6 +140,21 @@ SuperChip 1.0/1.1/XO-CHIP命令の一部を実装しました．
 LunarLanderという月面着陸ゲーム(lunar.ch8)が動作しました．
 ソースリストはGitHubの方に上げていないので，整理してから上げます．
 
+本日の作業が終了しました．
+
+- 0xFX55/0xFX65命令でIフラグを増やすか増やさないかをフラグ化
+- →互換プロファイルとして，VIP(Chip8) / SCHIP(SuperChip) / XO-CHIPを選択するように変更
+- →実装が間違っていたので修正
+- HP電卓の内部メモリにV0..VX(~7)を保存/取得する機能
+- →当初不要と考えていたが，LunarLanderで利用
+- →V0..VX(~7)ではなく，XO-CHIP拡張のV0..VX(~15)で実装
+- "clip sprites at screen edges instead of wrapping. "を実装(PPU_SetPixel(), XorPixel())
+- →LunarLanderの画面表示が修正
+
+とりあえず，本日の作業で，LunarLanderが動きました．
+今日はここまでにします．GitHubには上げていません．お疲れさまです．
+続きはまた来週です．
+
 ### 2023-02-27
 
 SuperChip 1.0/1.1/XO-CHIP命令の一部を実装しました．
