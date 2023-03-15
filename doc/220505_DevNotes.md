@@ -17,7 +17,7 @@ OctoからPyxelに変換する変換系を書く方が楽しそうですが，�
 VBRIXが動作しない等，若干精度が悪いみたいですが，そこは放置かなと考えています．
 3DNesの技術を使うと，キャラクターをグレードアップできるかもしれません．
 
-Chip8の場合には，DrawSprite命令の前に，iレジスタにスプライトの先頭番地を保存します．
+Chip8の場合には，DrawSprite命令の前に，Iレジスタにスプライトの先頭番地を保存します．
 そのアドレス毎に，属性情報を事前に準備しておけば，キャラクタに色(16色)を塗ることができそうです．
 ちなみに，3DNesの場合には，3次元ピクセルを事前に用意しておいて，3次元表示を実現しているのではないかと想像しています．
 
@@ -26,7 +26,7 @@ Chip8の場合には，DrawSprite命令の前に，iレジスタにスプライ�
 Pyxel版Chip8エミュレータ(PyxelChip8)の進捗です．
 VBRIXが動作しない不具合は，エミュレーションのスレッドを分離することで直りました．
 その結果，動きが速くなってしまったので，適当にスリープ処理を入れています．
-vsyncタイミングも超適当な実装なので，明日修正するかもしれません．
+VSYNCタイミングも超適当な実装なので，明日修正するかもしれません．
 
 <img src="https://github.com/jay-kumogata/PyxelChip8/blob/main/screenshots/vbrix02.gif" width="384">
 
@@ -36,7 +36,7 @@ Pygameを利用した前回のコードを見て，「なぜスレッドを起�
 
 ソースコードを綺麗にして，[GitHub](https://github.com/jay-kumogata/PyxelChip8)の方に上げておきました．
 Readmeも適当な英語で書いておきました(スペルも結構忘れてますね)．
-vsyncタイミング修正も未着手なので，そこも適当実装です(そもそも実機は存在しないので，多少適当でも許されるでしょう)．
+VSYNCタイミング修正も未着手なので，そこも適当実装です(そもそも実機は存在しないので，多少適当でも許されるでしょう)．
 Pythonの練習もできたので，次はオリジナルのゲームを作りたいです．
 
 ### 2022-05-10
@@ -99,10 +99,9 @@ Chip8miniで修正した不具合も同時に直しました．
 
 Chip8には，多種多様な拡張があります．最も有名なのが，SuperChip拡張です．そこで，PyxelChip8にも，SuperChipの命令を追加していくことにしました．
 
-
-- 0x00FE: Disable high-resolution mode命令
-- 0x00FF: Enable high-resolution mode命令
-- 0xDXY0: Draw 16 x 16 sprite命令
+- CPU: 0x00FE: Disable high-resolution mode命令
+- CPU: 0x00FF: Enable high-resolution mode命令
+- CPU: 0xDXY0: Draw 16 x 16 sprite命令
 
 <img src="https://github.com/jay-kumogata/PyxelChip8/blob/main/screenshots/amabie03.gif" width="384">
 
@@ -116,10 +115,10 @@ Chip8には，多種多様な拡張があります．最も有名なのが，Sup
 
 SuperChip 1.0/1.1命令の一部を実装しました．
 
-- 0x00CN: Scroll display N pixels down; in low resolution mode, N/2 pixels命令
-- 0x00FB: Scroll right by 4 pixels; in low resolution mode, 2 pixels命令
-- 0x00FC: Scroll left by 4 pixels; in low resolution mode, 2 pixels命令
-- 関数名を修正(PPU_EnableHighRes(), PPU_isHighRes())
+- CPU: 0x00CN: Scroll display N pixels down; in low resolution mode, N/2 pixels命令
+- CPU: 0x00FB: Scroll right by 4 pixels; in low resolution mode, 2 pixels命令
+- CPU: 0x00FC: Scroll left by 4 pixels; in low resolution mode, 2 pixels命令
+- PPU: 関数名を修正(PPU_EnableHighRes(), PPU_isHighRes())
 
 ゼビウス風の障害物を避けるゲーム(dodge2.ch8)が動作しました．
 
@@ -129,23 +128,23 @@ SuperChip 1.0/1.1命令の一部を実装しました．
 
 SuperChip 1.0/1.1/XO-CHIP命令の一部を実装しました．
 
-- 0x00FD: Exit interpreter命令
-- 0x00DN: Scroll up N pixels (XO-CHIP) 命令
-- 0xFX30: Point I to 10-byte font sprite for digit VX (only digits 0-9)命令
+- CPU: 0x00FD: Exit interpreter命令
+- CPU: 0x00DN: Scroll up N pixels (XO-CHIP) 命令
+- CPU: 0xFX30: Point I to 10-byte font sprite for digit VX (only digits 0-9)命令
 
 ### 2023-02-26
 
 本日の作業が終了しました．
 
 
-- 0xFX55/0xFX65命令でIレジスタを自動的に増加させるバグをフラグ制御できるように変更
-- ⇒互換プロファイルとして，VIP(Chip8) / SCHIP(SuperChip) / XO-CHIPを選択できるようにして，動作を変更
-- ⇒実装が間違っていたので，修正
-- HP電卓の内部メモリにV0..VX(~7)を保存/取得する機能を実装
-- ⇒当初不要と考えていたが，LunarLanderで利用されていることが判明
-- ⇒V0..VX(~7)ではなく，XO-CHIP拡張のV0..VX(~15)で実装
-- 画面の端でスプライトを切り落とす(折り返さない)機能を実装(PPU_SetPixel(), XorPixel())
-- ⇒LunarLanderの画面表示が修正
+- 1) 0xFX55/0xFX65命令でIレジスタを自動的に増加させるバグをフラグ制御できるように変更
+  - 互換プロファイルとして，VIP(Chip8) / SCHIP(SuperChip) / XO-CHIPを選択できるようにして，動作を変更
+  - 実装が間違っていたので，修正
+- 2) HP電卓の内部メモリにV0..VX(~7)を保存/取得する機能を実装
+  - 当初不要と考えていたが，LunarLanderで利用されていることが判明
+  - V0..VX(~7)ではなく，XO-CHIP拡張のV0..VX(~15)で実装
+- 3) 画面の端でスプライトを切り落とす(折り返さない)機能を実装(PPU_SetPixel(), XorPixel())
+  - LunarLanderの画面表示が修正
 
 とりあえず，本日の作業で，LunarLanderが動きました．
 今日はここまでにします．GitHubには上げていません．お疲れさまです．
@@ -158,8 +157,8 @@ SuperChip 1.0/1.1/XO-CHIP命令の一部を実装しました．
 SuperChip 1.0/1.1/XO-CHIP命令の一部を実装しました．
 
 - System: 互換性プロファイル(VIP / SCHIP / XO-CHIP)を指定できるように変更
-- 0xFX75: store V0..VX in RPL user flags, but X is not limited to 7命令を実装
-- 0xFX85: read V0..VX from RPL user flags, but X is not limited to 7命令を実装
+- CPU: 0xFX75: store V0..VX in RPL user flags, but X is not limited to 7命令を実装
+- CPU: 0xFX85: read V0..VX from RPL user flags, but X is not limited to 7命令を実装
 - PPU: 画面の端でスプライトを切り落とす(折り返さない)機能を実装(PPU_SetPixel(), XorPixel())
 
 本当に久しぶりに，エミュレータを開発しました．楽しいです．
