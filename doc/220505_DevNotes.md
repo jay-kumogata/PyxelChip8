@@ -151,6 +151,8 @@ SuperChip 1.0/1.1/XO-CHIP命令の一部を実装しました．
 今日はここまでにします．GitHubには上げていません．お疲れさまです．
 続きはまた来週です．
 
+<img src="https://github.com/jay-kumogata/PyxelChip8/blob/main/screenshots/lunar01.gif" width="384">
+
 ### 2023-02-27
 
 SuperChip 1.0/1.1/XO-CHIP命令の一部を実装しました．
@@ -164,8 +166,6 @@ SuperChip 1.0/1.1/XO-CHIP命令の一部を実装しました．
 昨日一旦開発終了したのですが，また続きを書いてしまいました．
 LunarLanderという月面着陸ゲーム(lunar.ch8)が動作しました．
 ソースリストはGitHubの方に上げていないので，整理してから上げます．
-
-<img src="https://github.com/jay-kumogata/PyxelChip8/blob/main/screenshots/lunar01.gif" width="384">
 
 ### 2023-03-01
 
