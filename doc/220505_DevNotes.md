@@ -135,21 +135,17 @@ SuperChip 1.0/1.1/XO-CHIP命令の一部を実装しました．
 
 ### 2023-02-26
 
-本当に久しぶりに，エミュレータを開発しました．楽しいです．
-昨日一旦開発終了したのですが，また続きを書いてしまいました．
-LunarLanderという月面着陸ゲーム(lunar.ch8)が動作しました．
-ソースリストはGitHubの方に上げていないので，整理してから上げます．
-
 本日の作業が終了しました．
 
-- 0xFX55/0xFX65命令でIフラグを増やすか増やさないかをフラグ化
-- →互換プロファイルとして，VIP(Chip8) / SCHIP(SuperChip) / XO-CHIPを選択するように変更
-- →実装が間違っていたので修正
-- HP電卓の内部メモリにV0..VX(~7)を保存/取得する機能
-- →当初不要と考えていたが，LunarLanderで利用
-- →V0..VX(~7)ではなく，XO-CHIP拡張のV0..VX(~15)で実装
-- "clip sprites at screen edges instead of wrapping. "を実装(PPU_SetPixel(), XorPixel())
-- →LunarLanderの画面表示が修正
+
+- 0xFX55/0xFX65命令でIレジスタを自動的に増加させるバグをフラグ制御できるように変更
+- ⇒互換プロファイルとして，VIP(Chip8) / SCHIP(SuperChip) / XO-CHIPを選択できるようにして，動作を変更
+- ⇒実装が間違っていたので，修正
+- HP電卓の内部メモリにV0..VX(~7)を保存/取得する機能を実装
+- ⇒当初不要と考えていたが，LunarLanderで利用されていることが判明
+- ⇒V0..VX(~7)ではなく，XO-CHIP拡張のV0..VX(~15)で実装
+- 画面の端でスプライトを切り落とす(折り返さない)機能を実装(PPU_SetPixel(), XorPixel())
+- ⇒LunarLanderの画面表示が修正
 
 とりあえず，本日の作業で，LunarLanderが動きました．
 今日はここまでにします．GitHubには上げていません．お疲れさまです．
@@ -164,7 +160,10 @@ SuperChip 1.0/1.1/XO-CHIP命令の一部を実装しました．
 - 0xFX85: read V0..VX from RPL user flags, but X is not limited to 7命令を実装
 - PPU: 画面の端でスプライトを切り落とす(折り返さない)機能を実装(PPU_SetPixel(), XorPixel())
 
-月面着陸ゲーム(lunar.ch8)が動作しました．
+本当に久しぶりに，エミュレータを開発しました．楽しいです．
+昨日一旦開発終了したのですが，また続きを書いてしまいました．
+LunarLanderという月面着陸ゲーム(lunar.ch8)が動作しました．
+ソースリストはGitHubの方に上げていないので，整理してから上げます．
 
 <img src="https://github.com/jay-kumogata/PyxelChip8/blob/main/screenshots/lunar01.gif" width="384">
 
