@@ -14,7 +14,7 @@ cf. https://johnearnest.github.io/Octo/
 
 pongの移植(記法変換)ができました．アセンブリ言語をocto記法に変更しただけです．リファクタリングすると見通しがよくなると想像するのですが，疲れたので，ここまでにします．octo記法にも習熟してきたので，オリジナルゲームを検討することにします．
 
-![](https://github.com/jay-kumogata/Nostalgia/blob/main/octo/screenshots/pong02.png)
+![](https://github.com/jay-kumogata/PyxelChip8/blob/main/games/screenshots/pong02.png)
 
 このurlでつながるみたいです．
 cf. https://johnearnest.github.io/Octo/index.html?key=jI2EPcN9
@@ -50,7 +50,7 @@ Please refer to the following URLs for Amabie(*1) and Ofuda(*2). Now in Japan, A
 The pong was ported (notation conversion). I just changed the assembly language to octo notation. Refactoring will improve the readability, but I'm tired, so that's it. I'm also familiar with octo notation, so I will consider an original game. #chip8 
 cf. https://johnearnest.github.io/Octo/index.html?key=973uE4zV
 
-![](https://github.com/jay-kumogata/Nostalgia/blob/main/octo/screenshots/pong03.png)
+![](https://github.com/jay-kumogata/PyxelChip8/blob/main/games/screenshots/pong03.png)
 
 ### 2021-03-20
 
@@ -58,9 +58,9 @@ cf. https://johnearnest.github.io/Octo/index.html?key=973uE4zV
 
 そして，最後にスクリーンショットです．
 
-![](https://github.com/jay-kumogata/Nostalgia/blob/main/octo/screenshots/amabie11.png)
-![](https://github.com/jay-kumogata/Nostalgia/blob/main/octo/screenshots/amabie15.png)
-![](https://github.com/jay-kumogata/Nostalgia/blob/main/octo/screenshots/amabie14.png)
+![](https://github.com/jay-kumogata/PyxelChip8/blob/main/games/screenshots/amabie11.png)
+![](https://github.com/jay-kumogata/PyxelChip8/blob/main/games/screenshots/amabie15.png)
+![](https://github.com/jay-kumogata/PyxelChip8/blob/main/games/screenshots/amabie14.png)
 
 ### 2021-03-21
 
@@ -107,8 +107,8 @@ cf. https://johnearnest.github.io/Octo/index.html?key=drtrCk7o
 
 そして，最後にスクリーンショットです．
 
-![](https://github.com/jay-kumogata/Nostalgia/blob/main/octo/screenshots/vbrix01.png)
-![](https://github.com/jay-kumogata/Nostalgia/blob/main/octo/screenshots/vbrix04.png)
+![](https://github.com/jay-kumogata/PyxelChip8/blob/main/games/screenshots/vbrix01.png)
+![](https://github.com/jay-kumogata/PyxelChip8/blob/main/games/screenshots/vbrix04.png)
 
 ### 2021-04-09
 
@@ -142,8 +142,8 @@ Octo環境でのChip8向けゲームとか，Atari社アステロイドのHaskel
 
 そして，最後にスクリーンショットです．
 
-![](https://github.com/jay-kumogata/Nostalgia/blob/main/octo/screenshots/ufo04.png)
-![](https://github.com/jay-kumogata/Nostalgia/blob/main/octo/screenshots/ufo02.png)
+![](https://github.com/jay-kumogata/PyxelChip8/blob/main/games/screenshots/ufo04.png)
+![](https://github.com/jay-kumogata/PyxelChip8/blob/main/games/screenshots/ufo02.png)
 
 ### 2021-08-09
 
@@ -160,8 +160,8 @@ W/S/A/Dキーで，上/下/左/右に移動します．
 
 そして，最後にスクリーンショットです．
 
-![](https://github.com/jay-kumogata/Nostalgia/blob/main/octo/screenshots/snake04.png)
-![](https://github.com/jay-kumogata/Nostalgia/blob/main/octo/screenshots/snake09.png)
+![](https://github.com/jay-kumogata/PyxelChip8/blob/main/games/screenshots/snake04.png)
+![](https://github.com/jay-kumogata/PyxelChip8/blob/main/games/screenshots/snake09.png)
 
 ### 2021-08-29
 
@@ -173,7 +173,7 @@ CHIP8には，1/60秒毎にカウントアップするディレイタイマが�
 
 そして，最後にスクリーンショットです．
 
-![](https://github.com/jay-kumogata/Nostalgia/blob/main/octo/screenshots/clock03.png)
+![](https://github.com/jay-kumogata/PyxelChip8/blob/main/games/screenshots/clock03.png)
 
 ### 2021-09-01
 
@@ -186,7 +186,7 @@ CHIP8には，1/60秒毎にカウントアップするディレイタイマが�
 
 そして，最後にスクリーンショットです．
 
-![](https://github.com/jay-kumogata/Nostalgia/blob/main/octo/screenshots/maze02.png)
+![](https://github.com/jay-kumogata/PyxelChip8/blob/main/games/screenshots/maze02.png)
 
 ### 2021-09-12
 
@@ -198,8 +198,8 @@ A/Dキーか，←/→キーで操作できます．
 
 そして，最後にスクリーンショットです．
 
-![](https://github.com/jay-kumogata/Nostalgia/blob/main/octo/screenshots/dodge04.png)
-![](https://github.com/jay-kumogata/Nostalgia/blob/main/octo/screenshots/dodge03.png)
+![](https://github.com/jay-kumogata/PyxelChip8/blob/main/games/screenshots/dodge04.png)
+![](https://github.com/jay-kumogata/PyxelChip8/blob/main/games/screenshots/dodge03.png)
 
 ### 2021-09-25
 
@@ -224,7 +224,7 @@ mの文字は，3x4ピクセルでは表現できずに若干苦労しました�
 
 そして，最後にスクリーンショットです．
 
-![](https://github.com/jay-kumogata/Nostalgia/blob/main/octo/screenshots/boot02.png)
+![](https://github.com/jay-kumogata/PyxelChip8/blob/main/games/screenshots/boot02.png)
 
 ### 2021-10-02
 
@@ -235,8 +235,8 @@ A/Dキーか，←/→キーで操作できます．#Chip8 #Octo cf. https://joh
 
 そして，最後にスクリーンショットです．
 
-![](https://github.com/jay-kumogata/Nostalgia/blob/main/octo/screenshots/dodge15.png)
-![](https://github.com/jay-kumogata/Nostalgia/blob/main/octo/screenshots/dodge16.png)
+![](https://github.com/jay-kumogata/PyxelChip8/blob/main/games/screenshots/dodge15.png)
+![](https://github.com/jay-kumogata/PyxelChip8/blob/main/games/screenshots/dodge16.png)
 
 ### 2021-10-03
 
@@ -254,9 +254,9 @@ mastermindをoctoアセンブリ言語で復刻しました．mastermindは，�
 
 そして，最後にスクリーンショットです．
 
-![](https://github.com/jay-kumogata/Nostalgia/blob/main/octo/screenshots/mastermind102.png)
-![](https://github.com/jay-kumogata/Nostalgia/blob/main/octo/screenshots/mastermind103.png)
-![](https://github.com/jay-kumogata/Nostalgia/blob/main/octo/screenshots/mastermind104.png)
+![](https://github.com/jay-kumogata/PyxelChip8/blob/main/games/screenshots/mastermind102.png)
+![](https://github.com/jay-kumogata/PyxelChip8/blob/main/games/screenshots/mastermind103.png)
+![](https://github.com/jay-kumogata/PyxelChip8/blob/main/games/screenshots/mastermind104.png)
 
 ### 2021-11-12
 
@@ -268,9 +268,9 @@ mastermindをoctoアセンブリ言語で復刻しました．mastermindは，�
 
 そして，最後にスクリーンショットです．
 
-![](https://github.com/jay-kumogata/Nostalgia/blob/main/octo/screenshots/mastermind203.png)
-![](https://github.com/jay-kumogata/Nostalgia/blob/main/octo/screenshots/mastermind204.png)
-![](https://github.com/jay-kumogata/Nostalgia/blob/main/octo/screenshots/mastermind205.png)
+![](https://github.com/jay-kumogata/PyxelChip8/blob/main/games/screenshots/mastermind203.png)
+![](https://github.com/jay-kumogata/PyxelChip8/blob/main/games/screenshots/mastermind204.png)
+![](https://github.com/jay-kumogata/PyxelChip8/blob/main/games/screenshots/mastermind205.png)
 
 ### 2021-11-14
 
@@ -278,9 +278,9 @@ mastermindをoctoアセンブリ言語で復刻しました．mastermindは，�
 
 そして，最後にスクリーンショットです．
 
-![](https://github.com/jay-kumogata/Nostalgia/blob/main/octo/screenshots/mastermind213.png)
-![](https://github.com/jay-kumogata/Nostalgia/blob/main/octo/screenshots/mastermind214.png)
-![](https://github.com/jay-kumogata/Nostalgia/blob/main/octo/screenshots/mastermind215.png)
+![](https://github.com/jay-kumogata/PyxelChip8/blob/main/games/screenshots/mastermind213.png)
+![](https://github.com/jay-kumogata/PyxelChip8/blob/main/games/screenshots/mastermind214.png)
+![](https://github.com/jay-kumogata/PyxelChip8/blob/main/games/screenshots/mastermind215.png)
 
 ### 2021-11-16
 
@@ -288,9 +288,9 @@ mastermindをoctoアセンブリ言語で復刻しました．mastermindは，�
 
 そして，最後にスクリーンショットです．
 
-![](https://github.com/jay-kumogata/Nostalgia/blob/main/octo/screenshots/mastermind113.png)
-![](https://github.com/jay-kumogata/Nostalgia/blob/main/octo/screenshots/mastermind114.png)
-![](https://github.com/jay-kumogata/Nostalgia/blob/main/octo/screenshots/mastermind115.png)
+![](https://github.com/jay-kumogata/PyxelChip8/blob/main/games/screenshots/mastermind113.png)
+![](https://github.com/jay-kumogata/PyxelChip8/blob/main/games/screenshots/mastermind114.png)
+![](https://github.com/jay-kumogata/PyxelChip8/blob/main/games/screenshots/mastermind115.png)
 
 ### 2021-11-17
 
@@ -298,9 +298,9 @@ mastermindをoctoアセンブリ言語で復刻しました．mastermindは，�
 
 そして，最後にスクリーンショットです．
 
-![](https://github.com/jay-kumogata/Nostalgia/blob/main/octo/screenshots/mastermind123.png)
-![](https://github.com/jay-kumogata/Nostalgia/blob/main/octo/screenshots/mastermind124.png)
-![](https://github.com/jay-kumogata/Nostalgia/blob/main/octo/screenshots/mastermind126.png)
+![](https://github.com/jay-kumogata/PyxelChip8/blob/main/games/screenshots/mastermind123.png)
+![](https://github.com/jay-kumogata/PyxelChip8/blob/main/games/screenshots/mastermind124.png)
+![](https://github.com/jay-kumogata/PyxelChip8/blob/main/games/screenshots/mastermind126.png)
 
 ### 2021-11-19
 
@@ -308,9 +308,9 @@ mastermindをoctoアセンブリ言語で復刻しました．mastermindは，�
 
 そして，最後にスクリーンショットです．
 
-![](https://github.com/jay-kumogata/Nostalgia/blob/main/octo/screenshots/mastermind223.png)
-![](https://github.com/jay-kumogata/Nostalgia/blob/main/octo/screenshots/mastermind224.png)
-![](https://github.com/jay-kumogata/Nostalgia/blob/main/octo/screenshots/mastermind225.png)
+![](https://github.com/jay-kumogata/PyxelChip8/blob/main/games/screenshots/mastermind223.png)
+![](https://github.com/jay-kumogata/PyxelChip8/blob/main/games/screenshots/mastermind224.png)
+![](https://github.com/jay-kumogata/PyxelChip8/blob/main/games/screenshots/mastermind225.png)
 
 ### 2021-11-20
 
@@ -370,10 +370,10 @@ mastermindシリーズには，下記のバージョンがあります．
 
 そして，最後にスクリーンショットです．
 
-![](https://github.com/jay-kumogata/Nostalgia/blob/main/octo/screenshots/lander02.png)
-![](https://github.com/jay-kumogata/Nostalgia/blob/main/octo/screenshots/lander12.png)
-![](https://github.com/jay-kumogata/Nostalgia/blob/main/octo/screenshots/lander13.png)
-![](https://github.com/jay-kumogata/Nostalgia/blob/main/octo/screenshots/lander05.png)
+![](https://github.com/jay-kumogata/PyxelChip8/blob/main/games/screenshots/lander02.png)
+![](https://github.com/jay-kumogata/PyxelChip8/blob/main/games/screenshots/lander12.png)
+![](https://github.com/jay-kumogata/PyxelChip8/blob/main/games/screenshots/lander13.png)
+![](https://github.com/jay-kumogata/PyxelChip8/blob/main/games/screenshots/lander05.png)
 
 ### 2021-12-07
 
@@ -389,10 +389,10 @@ mastermindシリーズには，下記のバージョンがあります．
 
 そして，最後にスクリーンショットです．
 
-![](https://github.com/jay-kumogata/Nostalgia/blob/main/octo/screenshots/lander06.png)
-![](https://github.com/jay-kumogata/Nostalgia/blob/main/octo/screenshots/lander03.png)
-![](https://github.com/jay-kumogata/Nostalgia/blob/main/octo/screenshots/lander04.png)
-![](https://github.com/jay-kumogata/Nostalgia/blob/main/octo/screenshots/lander07.png)
+![](https://github.com/jay-kumogata/PyxelChip8/blob/main/games/screenshots/lander06.png)
+![](https://github.com/jay-kumogata/PyxelChip8/blob/main/games/screenshots/lander03.png)
+![](https://github.com/jay-kumogata/PyxelChip8/blob/main/games/screenshots/lander04.png)
+![](https://github.com/jay-kumogata/PyxelChip8/blob/main/games/screenshots/lander07.png)
 
 ### 2021-12-12
 
@@ -400,9 +400,9 @@ mastermindシリーズには，下記のバージョンがあります．
 
 そして，最後にスクリーンショットです．
 
-![](https://github.com/jay-kumogata/Nostalgia/blob/main/octo/screenshots/lander202.png)
-![](https://github.com/jay-kumogata/Nostalgia/blob/main/octo/screenshots/lander207.png)
-![](https://github.com/jay-kumogata/Nostalgia/blob/main/octo/screenshots/lander203.png)
-![](https://github.com/jay-kumogata/Nostalgia/blob/main/octo/screenshots/lander205.png)
+![](https://github.com/jay-kumogata/PyxelChip8/blob/main/games/screenshots/lander202.png)
+![](https://github.com/jay-kumogata/PyxelChip8/blob/main/games/screenshots/lander207.png)
+![](https://github.com/jay-kumogata/PyxelChip8/blob/main/games/screenshots/lander203.png)
+![](https://github.com/jay-kumogata/PyxelChip8/blob/main/games/screenshots/lander205.png)
 
 以上

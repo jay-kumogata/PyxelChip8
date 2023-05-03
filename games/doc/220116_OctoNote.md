@@ -14,9 +14,9 @@ David Winter氏によるBreakout (Brix hack / 1997年)も復刻させました�
 
 そして，最後にスクリーンショットです．
 
-![](https://github.com/jay-kumogata/Nostalgia/blob/main/octo/screenshots/breakout05.png)
-![](https://github.com/jay-kumogata/Nostalgia/blob/main/octo/screenshots/breakout06.png)
-![](https://github.com/jay-kumogata/Nostalgia/blob/main/octo/screenshots/breakout07.png)
+![](https://github.com/jay-kumogata/PyxelChip8/blob/main/games/screenshots/breakout05.png)
+![](https://github.com/jay-kumogata/PyxelChip8/blob/main/games/screenshots/breakout06.png)
+![](https://github.com/jay-kumogata/PyxelChip8/blob/main/games/screenshots/breakout07.png)
 
 ### 2022-01-23
 
@@ -38,9 +38,9 @@ Octojam8でサンプルゲームとして紹介されているDodgeのキャラ�
 
 そして，最後にスクリーンショットです．
 
-![](https://github.com/jay-kumogata/Nostalgia/blob/main/octo/screenshots/dodge22.png)
-![](https://github.com/jay-kumogata/Nostalgia/blob/main/octo/screenshots/dodge23.png)
-![](https://github.com/jay-kumogata/Nostalgia/blob/main/octo/screenshots/dodge24.png)
+![](https://github.com/jay-kumogata/PyxelChip8/blob/main/games/screenshots/dodge22.png)
+![](https://github.com/jay-kumogata/PyxelChip8/blob/main/games/screenshots/dodge23.png)
+![](https://github.com/jay-kumogata/PyxelChip8/blob/main/games/screenshots/dodge24.png)
 
 ### 2022-02-07
 
@@ -48,7 +48,7 @@ Octojam8でサンプルゲームとして紹介されているDodgeのキャラ�
 
 そして，最後にスクリーンショットです．
 
-![](https://github.com/jay-kumogata/Nostalgia/blob/main/octo/screenshots/ohinasama01.png)
+![](https://github.com/jay-kumogata/PyxelChip8/blob/main/games/screenshots/ohinasama01.png)
 
 ### 2022-02-08
 
@@ -56,7 +56,7 @@ chip8(xo-chip)でお雛様を描いていくシリーズ第2弾です．雪洞�
 
 そして，最後にスクリーンショットです．
 
-![](https://github.com/jay-kumogata/Nostalgia/blob/main/octo/screenshots/ohinasama11.png)
+![](https://github.com/jay-kumogata/PyxelChip8/blob/main/games/screenshots/ohinasama11.png)
 
 ### 2022-02-09
 
@@ -64,7 +64,7 @@ chip8(xo-chip)でお雛様を描いていくシリーズ第3弾です．三人�
 
 そして，最後にスクリーンショットです．
 
-![](https://github.com/jay-kumogata/Nostalgia/blob/main/octo/screenshots/ohinasama21.png)
+![](https://github.com/jay-kumogata/PyxelChip8/blob/main/games/screenshots/ohinasama21.png)
 
 ### 2022-02-10
 
@@ -72,7 +72,7 @@ chip8(xo-chip)でお雛様を描いていくシリーズ第4弾です．菱餅�
 
 そして，最後にスクリーンショットです．
 
-![](https://github.com/jay-kumogata/Nostalgia/blob/main/octo/screenshots/ohinasama31.png)
+![](https://github.com/jay-kumogata/PyxelChip8/blob/main/games/screenshots/ohinasama31.png)
 
 ### 2022-02-25
 
@@ -80,8 +80,8 @@ Chip8(xo-chip)でお雛様を描いていくシリーズ第5弾です．ドッ�
 
 そして，最後にスクリーンショットです．
 
-![](https://github.com/jay-kumogata/Nostalgia/blob/main/octo/screenshots/ohinasama41.png)
-![](https://github.com/jay-kumogata/Nostalgia/blob/main/octo/screenshots/ohinasama42.png)
+![](https://github.com/jay-kumogata/PyxelChip8/blob/main/games/screenshots/ohinasama41.png)
+![](https://github.com/jay-kumogata/PyxelChip8/blob/main/games/screenshots/ohinasama42.png)
 
 ### 2022-02-26
 
@@ -89,10 +89,10 @@ Octojam8のサンプルゲームDodgeのキャラクタもドット絵風の配�
 
 そして，最後にスクリーンショットです．
 
-![](https://github.com/jay-kumogata/Nostalgia/blob/main/octo/screenshots/dodge34.png)
-![](https://github.com/jay-kumogata/Nostalgia/blob/main/octo/screenshots/dodge31.png)
-![](https://github.com/jay-kumogata/Nostalgia/blob/main/octo/screenshots/dodge32.png)
-![](https://github.com/jay-kumogata/Nostalgia/blob/main/octo/screenshots/dodge33.png)
+![](https://github.com/jay-kumogata/PyxelChip8/blob/main/games/screenshots/dodge34.png)
+![](https://github.com/jay-kumogata/PyxelChip8/blob/main/games/screenshots/dodge31.png)
+![](https://github.com/jay-kumogata/PyxelChip8/blob/main/games/screenshots/dodge32.png)
+![](https://github.com/jay-kumogata/PyxelChip8/blob/main/games/screenshots/dodge33.png)
 
 ### 2022-03-06
 
@@ -100,10 +100,10 @@ Octojam8のサンプルゲームDodgeのキャラクタもドット絵風の配�
 
 そして，最後にスクリーンショットです．
 
-![](https://github.com/jay-kumogata/Nostalgia/blob/main/octo/screenshots/dodge42.png)
-![](https://github.com/jay-kumogata/Nostalgia/blob/main/octo/screenshots/dodge41.png)
-![](https://github.com/jay-kumogata/Nostalgia/blob/main/octo/screenshots/dodge43.png)
-![](https://github.com/jay-kumogata/Nostalgia/blob/main/octo/screenshots/dodge44.png)
+![](https://github.com/jay-kumogata/PyxelChip8/blob/main/games/screenshots/dodge42.png)
+![](https://github.com/jay-kumogata/PyxelChip8/blob/main/games/screenshots/dodge41.png)
+![](https://github.com/jay-kumogata/PyxelChip8/blob/main/games/screenshots/dodge43.png)
+![](https://github.com/jay-kumogata/PyxelChip8/blob/main/games/screenshots/dodge44.png)
 
 ### 2022-03-21
 
@@ -117,10 +117,10 @@ Octo/Chip8を使って，ここ1年間で復刻したビデオゲームです．
 
 そして，最後にスクリーンショットです．
 
-![](https://github.com/jay-kumogata/Nostalgia/blob/main/octo/screenshots/pong04.png)
-![](https://github.com/jay-kumogata/Nostalgia/blob/main/octo/screenshots/breakout07.png)
-![](https://github.com/jay-kumogata/Nostalgia/blob/main/octo/screenshots/lander13.png)
-![](https://github.com/jay-kumogata/Nostalgia/blob/main/octo/screenshots/snake09.png)
+![](https://github.com/jay-kumogata/PyxelChip8/blob/main/games/screenshots/pong04.png)
+![](https://github.com/jay-kumogata/PyxelChip8/blob/main/games/screenshots/breakout07.png)
+![](https://github.com/jay-kumogata/PyxelChip8/blob/main/games/screenshots/lander13.png)
+![](https://github.com/jay-kumogata/PyxelChip8/blob/main/games/screenshots/snake09.png)
 
 ### 2022-03-22
 

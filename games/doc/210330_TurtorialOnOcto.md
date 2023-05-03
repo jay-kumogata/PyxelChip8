@@ -73,7 +73,7 @@ OctoはAlgol系の記法を用いて，アセンブリ言語を記述しやす�
 右のURLを押してみてください．
 cf. https://johnearnest.github.io/Octo/index.html?key=oHPV39w-
 
-![](https://github.com/jay-kumogata/RetroGames/blob/main/octo/screenshots/pong04.png)
+![](https://github.com/jay-kumogata/PyxelChip8/blob/main/games/screenshots/pong04.png)
 
 pongという古いゲームが動きます．
 ボールが動き出しますね．

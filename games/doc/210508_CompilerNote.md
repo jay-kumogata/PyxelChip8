@@ -83,7 +83,7 @@
 
 ### 2021-05-11
 
-関数型言語の翻訳系と，Chip8命令への変換系について，いろいろつぶやきましたが，tweetの方は消して，[wiki](https://github.com/jay-kumogata/Nostalgia/wiki/210508_CompilerNote)にまとめました．
+関数型言語の翻訳系と，Chip8命令への変換系について，いろいろつぶやきましたが，tweetの方は消して，[wiki](https://github.com/jay-kumogata/PyxelChip8/blob/main/games/doc/210508_CompilerNote.md)にまとめました．
 
 変換系コードも載せておきました．コーディングは運動不足になるので，しばらくお休みです．
 
@@ -200,7 +200,7 @@ Haskell言語のさして広くはない応用分野として，今回紹介し�
 
 ### 2021-05-19
 
-[関数型言語の翻訳系研究記](https://github.com/jay-kumogata/Nostalgia/wiki/210508_CompilerNote)の日本語を少し直しました．ですます調に統一しました．mapとmapM_の型を追記しました．
+[関数型言語の翻訳系研究記](https://github.com/jay-kumogata/PyxelChip8/blob/main/games/doc/210508_CompilerNote.md)の日本語を少し直しました．ですます調に統一しました．mapとmapM_の型を追記しました．
 
 ### 2022-01-06
 
