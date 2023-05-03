@@ -48,13 +48,13 @@ Pythonの練習もできたので，次はオリジナルのゲームを作り�
 ### 2022-05-12
 
 Pyxel版Chip8エミュレータ(PyxelChip8)の進捗です．
-昨晩，拙作[amabie](https://github.com/jay-kumogata/RetroGames/tree/main/octo/amabie)を動作させてみました．
+昨晩，拙作[amabie](https://github.com/jay-kumogata/PyxelChip8/tree/main/games/amabie)を動作させてみました．
 修正は不要で特に問題なく動作しました．
 妖怪アマビエが活躍して，このまま疫病が終息することを期待します．
 
 <img src="https://github.com/jay-kumogata/PyxelChip8/blob/main/screenshots/amabie02.gif" width="384">
 
-なお，拙作[amabie](https://github.com/jay-kumogata/RetroGames/tree/main/octo/amabie)の方では，バイナリ(amabie.ch8)とカートリッジ画像(amabie.gif)も追加で配布しています．
+なお，拙作[amabie](https://github.com/jay-kumogata/PyxelChip8/tree/main/games/amabie)の方では，バイナリ(amabie.ch8)とカートリッジ画像(amabie.gif)も追加で配布しています．
 
 ### 2022-05-15
 
