@@ -375,6 +375,10 @@ mastermindシリーズには，下記のバージョンがあります．
 ![](https://github.com/jay-kumogata/PyxelChip8/blob/main/games/screenshots/lander13.png)
 ![](https://github.com/jay-kumogata/PyxelChip8/blob/main/games/screenshots/lander05.png)
 
+### 2021-12-06
+
+土日は，Lunar Landerというゲームを復刻しました．
+
 ### 2021-12-07
 
 1点訂正です．正しくは「W/A/Dキーか，↑/←/→キーで，上/左/右に移動します．」でした．蛇足ですが，歴史を総括した記事を見つけました．最初の実装は，Moonlander (1973年/DEC GT-40)で，その後も，さまざまなプラットフォームで実装されているようです．cf. https://www.pcmag.com/news/50-years-on-the-moon-the-evolution-of-lunar-lander-games
@@ -382,6 +386,11 @@ mastermindシリーズには，下記のバージョンがあります．
 ### 2021-12-08
 
 本作品のオリジナルは，[Jeffrey Massung氏による実装](https://github.com/massung/CHIP-8/blob/master/games/sources/lander.c8)です．Chip8アセンブラで記載されていたソースをOcto記法に変換しています．ですので，ロジックは変更していません．時々難易度が高い地形が現れますが，これもバグではなくて仕様なのだと想像します．#chip8 #octo
+
+### 2021-12-09
+
+- lander1: 一応リリースしました．地形が変になるバグが発生しましたが，仕様なのかもしれません
+- lander2: 1979年のROMイメージを読み込んで，作成はじめました
 
 ### 2021-12-11
 
@@ -404,5 +413,31 @@ mastermindシリーズには，下記のバージョンがあります．
 ![](https://github.com/jay-kumogata/PyxelChip8/blob/main/games/screenshots/lander207.png)
 ![](https://github.com/jay-kumogata/PyxelChip8/blob/main/games/screenshots/lander203.png)
 ![](https://github.com/jay-kumogata/PyxelChip8/blob/main/games/screenshots/lander205.png)
+
+### 2021-12-31
+
+ゲーム復刻一覧(デモは除外)
+
+|項番|日付|名称|プラットフォーム|備考|
+|----|----|----|--------------|----|
+|1|2021-03-08|pong|Octo/Chip8|ソースリスト変換(asm→octo)|
+|2|2021-03-20|amabie|Octo/Chip8|キャラクタ変更(deep→amabie)|
+|3|2021-04-07|vbrix|Octo/Chip8|ソースリスト変換(asm→octo)|
+|4|2021-07-05|ufo|Octo/Chip8|ソースリスト変換(asm→octo)|
+|5|2021-08-14|snake|Octo/Chip8|ソースリスト変換(asm→octo)|
+|6|2021-08-28|asteroid|Haskell|キャラクタ変更(自機 / 岩)|
+|7|2021-09-12|dodge|Octo/Chip8|キャラクタ変更(スターフォース風)|
+|8|2021-10-02|dodge_v2|Octo/SChip|キャラクタ変更(ゼビウス風)|
+|9|2021-11-10|mastermind(4row)|Octo/Chip8|ソースコード変換(bin→octo)|
+|10|2021-11-13|mastermind(5row)|Octo/SChip|バイナリ読込(コメント加筆)|
+|11|2021-11-16|mastermind(4row)_v2|Octo/Chip8|キャラクタ変更(数字フォント)|
+|12|2021-11-17|mastermind(4row)_v3|Octo/Chip8|キャラクタ変更(麻雀牌)|
+|13|2021-11-19|mastermind(5row)_v2|Octo/SChip|キャラクタ変更(数字フォント)|
+|14|2021-12-05|lunarlander(new)|Octo/SChip|ソースリスト変換(asm→octo)|
+|15|2021-12-12|lunarlander(old)|Octo/Chip8|バイナリ読込(コメント加筆)|
+|16|2022-01-21|breakout|Octo/Chip8|バイナリ読込(コメント加筆)|
+|17|2022-02-04|dodge_v3|Octo/XOChip|キャラクタ変更(2色→4色)|
+|18|2022-02-26|dodge_v4|Octo/XOChip|サウンド追加(ゼビウス風)|
+|19|2022-03-06|dodge_v5|Octo/XOChip|キャラクタ追加(アンドアジェネシス)|
 
 以上
