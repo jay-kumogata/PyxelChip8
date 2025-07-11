@@ -299,4 +299,9 @@ Taito社Arkanoid 風の色付けに変更しました．
 
 <img src="https://github.com/jay-kumogata/PyxelChip8/blob/main/pyxel/vbrix/screenshots/vbrix03.gif" width="256">
 
+### 2025-06-08
+
+Chip8アセンブラをPyxel/Pythonに変換したゲームとデモを，
+[ここ](https://github.com/jay-kumogata/PyxelChip8/tree/main/pyxel)に移動させました．
+
 以上
