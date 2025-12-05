@@ -1,6 +1,8 @@
 # Chip8 games and demos
 
-Games and demos written in Octo/Chip8
+Games and demos written in Octo/Chip8<br>
+[DevNote in 2021](doc/210307_OctoNote.md) and
+[DevNote in 2022](doc/220116_OctoNote.md) are here.
 
 ## Game list
 
