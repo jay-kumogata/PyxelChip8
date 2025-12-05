@@ -3,11 +3,11 @@
 ## Introduction
 
 PyxelChip8 is a CHIP-8/SUPER-CHIP emulator that runs on Pyxel/Python library.<br>
-[Chip8 games and demos](https://github.com/jay-kumogata/PyxelChip8/tree/main/games), 
-[Pyxel games and demos](https://github.com/jay-kumogata/PyxelChip8/tree/main/pyxel) and
-[Dev Notes](https://github.com/jay-kumogata/PyxelChip8/blob/main/doc/220505_DevNotes.md) are here.
+[Chip8 games and demos](games), 
+[Pyxel games and demos](pyxel) and
+[Dev Notes](doc/220505_DevNotes.md) are here.
 
-<img src="https://github.com/jay-kumogata/PyxelChip8/blob/main/screenshots/amabie03.gif" width="256"> <img src="https://github.com/jay-kumogata/PyxelChip8/blob/main/screenshots/invaders01.gif" width="256"> <img src="https://github.com/jay-kumogata/PyxelChip8/blob/main/screenshots/brix01.gif" width="256"> <img src="https://github.com/jay-kumogata/PyxelChip8/blob/main/screenshots/dodge01.gif" width="256">  <img src="https://github.com/jay-kumogata/PyxelChip8/blob/main/screenshots/lunar01.gif" width="256"> <img src="https://github.com/jay-kumogata/PyxelChip8/blob/main/screenshots/test_opcode.gif" width="256"> 
+<img src="screenshots/amabie03.gif" width="256"> <img src="screenshots/invaders01.gif" width="256"> <img src="screenshots/brix01.gif" width="256"> <img src="screenshots/dodge01.gif" width="256">  <img src="screenshots/lunar01.gif" width="256"> <img src="screenshots/test_opcode.gif" width="256"> 
 
 ## How to Play
 
